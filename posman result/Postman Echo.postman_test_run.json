@@ -1,0 +1,250 @@
+{
+	"id": "fced6131-8559-4150-b2d7-23f0f2a11067",
+	"name": "Postman Echo",
+	"timestamp": "2024-12-05T21:03:48.438Z",
+	"collection_id": "39547561-945ffd7e-1ca3-40f7-bac6-a48969d21a5c",
+	"folder_id": "39547561-47ddbf70-b34a-463d-b57a-3d7c9aafbb26",
+	"environment_id": "0",
+	"totalPass": 11,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-12-05T21:03:41.994Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "89cbb6be-3caa-4abc-acf4-d2a5f2c4c121",
+			"name": "GET Request",
+			"url": "https://postman-echo.com/get",
+			"time": 3571,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"response body has json with request queries": false
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response body has json with request queries": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				3571
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"response body has json with request queries": false
+				}
+			]
+		},
+		{
+			"id": "482ce90b-29e9-4856-87f5-b3f4e183a38f",
+			"name": "POST Raw Text",
+			"url": "https://postman-echo.com/post",
+			"time": 578,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"response body has json with request body": false,
+				"testing method": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response body has json with request body": {
+					"pass": 0,
+					"fail": 1
+				},
+				"testing method": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				578
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"response body has json with request body": false,
+					"testing method": true
+				}
+			]
+		},
+		{
+			"id": "647b6e24-6d65-4185-97c3-56c844d3dd31",
+			"name": "POST Form Data",
+			"url": "https://postman-echo.com/post",
+			"time": 189,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"response body has json with form data": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response body has json with form data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				189
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"response body has json with form data": true
+				}
+			]
+		},
+		{
+			"id": "64f4b50d-dea8-4ee8-975f-1c7cb982f706",
+			"name": "PUT Request",
+			"url": "https://postman-echo.com/put",
+			"time": 189,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"response body has json with form data": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response body has json with form data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				189
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"response body has json with form data": true
+				}
+			]
+		},
+		{
+			"id": "c429af8f-488f-405f-8e40-f7fb2627b1df",
+			"name": "PATCH Request",
+			"url": "https://postman-echo.com/patch",
+			"time": 187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"response body has json with form data": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response body has json with form data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				187
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"response body has json with form data": true
+				}
+			]
+		},
+		{
+			"id": "c1a4b47f-39b2-46b2-a69a-84eac9568080",
+			"name": "DELETE Request",
+			"url": "https://postman-echo.com/delete",
+			"time": 190,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"response body has json with form data": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response body has json with form data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				190
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"response body has json with form data": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4904,
+	"collection": {
+		"requests": [
+			{
+				"id": "89cbb6be-3caa-4abc-acf4-d2a5f2c4c121",
+				"method": "GET"
+			},
+			{
+				"id": "482ce90b-29e9-4856-87f5-b3f4e183a38f",
+				"method": "POST"
+			},
+			{
+				"id": "647b6e24-6d65-4185-97c3-56c844d3dd31",
+				"method": "POST"
+			},
+			{
+				"id": "64f4b50d-dea8-4ee8-975f-1c7cb982f706",
+				"method": "PUT"
+			},
+			{
+				"id": "c429af8f-488f-405f-8e40-f7fb2627b1df",
+				"method": "PATCH"
+			},
+			{
+				"id": "c1a4b47f-39b2-46b2-a69a-84eac9568080",
+				"method": "DELETE"
+			}
+		]
+	}
+}
